@@ -1,0 +1,49 @@
+
+
+  .card-image {
+
+    
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+
+  #image-one {
+    background-image: url("/images/lion.jpg");
+  }
+
+  #image-two {
+      background-image: url("/images/inspiration-1024x683.jpg");
+  }
+
+  #image-three {
+    background-image: url("/images/Red_Hood-wallpaper-10328350.jpg"); 
+  }
+
+  #image-four {
+    background-image: url("/images/dark_side-wallpaper-10313947.jpg"); 
+  }
+
+  #image-five {
+    background-image: url("/images/Apple-wallpaper-10036959.jpg"); 
+  }
+
+  #image-six {
+    background-image: url("/images/Bulbs-wallpaper-10049922.jpg"); 
+  }
+
+
+  .avatar {
+    height: 100%;
+    width: 100%;
+    border-radius: 300650px;
+  }
+
+  .blog-container .card-image {
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+  }
+
+

@@ -1,0 +1,39 @@
+html {
+  font-family: 'Nunito', sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  line-height: 1.6;
+  color: #444444;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.2;
+}

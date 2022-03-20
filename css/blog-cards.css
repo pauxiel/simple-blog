@@ -1,0 +1,33 @@
+.blog-card {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid blue; */
+    box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* .card-detail, .read-more {
+    padding: 0px 30px 0px 0px;
+} */
+
+
+
+.card-content {
+    padding: 30px 30px 30px;
+  }
+
+  .read-more {
+      margin-top: 20px;
+  }
+  
+
+  .button {
+    display: inline-block;
+    font-size: 1rem;
+    background: #e76c67;
+    border: 1px solid #e76c67;
+    padding: 0.75rem 1rem;
+    color: white;
+    /* font-weight: 700; */
+    text-align: center;
+    /* border-radius: 290486px; */
+  }
