@@ -9,12 +9,16 @@
       href="https://fonts.googleapis.com/css?family=Nunito:400,700"
     />
     <link rel="stylesheet" href="css/styles.css" />
-    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"
+    ></script>
     <title>Document</title>
   </head>
   <body>
     <header>
       <h1>Welcome to my Personal Blog</h1>
+      <a href="index.html" class="btn">Back to Home</a>
     </header>
     <main>
       <section class="content-section">
@@ -24,22 +28,26 @@
             <aside class="side">
               <figure class="picture">
                 <img src="images/image-daniel.jpg" class="avatar" alt="" />
+                <!-- <figcaption>Fig.1 - Author Picture</figcaption> -->
               </figure>
             </aside>
 
-            <div class="author-detail ">
+            <figcaption class="author-detail ">
               <h3>daniel graig</h3>
               <!-- <p class="title">Web Developer</p> -->
-              <i class="title">web developer</i>
+              <em class="title">web developer</em>
               <!-- <hr class="hr">  -->
               <p class="bio">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                 lacinia neque non placerat lacinia.
               </p>
-            </div>
+            </figcaption>
           </div>
 
           <div class="card-image" id="image-one"></div>
+          <div class="date">
+            <u>Written on &nbsp;<b>November 16, 2020</b></u> <br />
+          </div>
 
           <article>
             <p>
@@ -51,6 +59,11 @@
               Quisque pellentesque ut sem et scelerisque. Nam sit amet odio eget
               nibh aliquam luctus ut sed urna. Etiam semper ac odio at auctor.
             </p>
+
+            <blockquote>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              lacinia neque non placerat lacinia.
+            </blockquote>
 
             <p>
               Fusce tempus posuere pellentesque. Pellentesque quis viverra odio.
@@ -123,8 +136,6 @@
           </ul>
         </div>
       </section>
-
-     
     </main>
 
     <footer>
